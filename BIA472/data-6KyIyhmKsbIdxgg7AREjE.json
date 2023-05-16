@@ -1,0 +1,602 @@
+[
+	{
+		"TimeStamp": "7:53 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "4:49 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "January"
+	},
+	{
+		"TimeStamp": "12:49 AM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "5:24 AM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "3:11 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "6:43 PM",
+		"Year": 2021,
+		"Quarter": 3,
+		"Month": "December"
+	},
+	{
+		"TimeStamp": "2:52 AM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "11:05 PM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "9:36 PM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "2:46 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "9:49 PM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "6:00 AM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "August"
+	},
+	{
+		"TimeStamp": "2:48 AM",
+		"Year": 2023,
+		"Quarter": 4,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "10:22 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "December"
+	},
+	{
+		"TimeStamp": "10:54 AM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "12:01 PM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "January"
+	},
+	{
+		"TimeStamp": "12:34 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "7:50 PM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "2:50 PM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "December"
+	},
+	{
+		"TimeStamp": "11:49 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "December"
+	},
+	{
+		"TimeStamp": "2:48 AM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "June"
+	},
+	{
+		"TimeStamp": "1:58 AM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "4:26 AM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "8:36 PM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "10:34 AM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "8:50 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "4:01 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "July"
+	},
+	{
+		"TimeStamp": "6:12 AM",
+		"Year": 2023,
+		"Quarter": 4,
+		"Month": "August"
+	},
+	{
+		"TimeStamp": "7:47 AM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "12:30 AM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "8:29 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "11:48 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "10:05 PM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "7:39 PM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "11:47 AM",
+		"Year": 2023,
+		"Quarter": 4,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "5:26 PM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "7:05 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "August"
+	},
+	{
+		"TimeStamp": "8:54 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "1:45 PM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "June"
+	},
+	{
+		"TimeStamp": "10:29 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "6:14 AM",
+		"Year": 2023,
+		"Quarter": 4,
+		"Month": "January"
+	},
+	{
+		"TimeStamp": "1:04 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "July"
+	},
+	{
+		"TimeStamp": "10:05 AM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "July"
+	},
+	{
+		"TimeStamp": "8:45 AM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "2:52 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "2:56 PM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "11:48 AM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "3:31 PM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "8:36 AM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "2:02 AM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "2:42 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "6:33 PM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "12:37 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "3:24 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "12:46 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "6:20 PM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "5:50 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "8:21 AM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "5:27 PM",
+		"Year": 2021,
+		"Quarter": 2,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "5:19 AM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "10:43 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "January"
+	},
+	{
+		"TimeStamp": "11:28 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "1:48 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "August"
+	},
+	{
+		"TimeStamp": "8:13 AM",
+		"Year": 2023,
+		"Quarter": 4,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "2:47 AM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "June"
+	},
+	{
+		"TimeStamp": "12:42 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "August"
+	},
+	{
+		"TimeStamp": "10:20 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "2:09 AM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "7:19 AM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "June"
+	},
+	{
+		"TimeStamp": "7:19 PM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "6:59 PM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "December"
+	},
+	{
+		"TimeStamp": "5:43 AM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "5:01 AM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "9:12 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "7:32 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "June"
+	},
+	{
+		"TimeStamp": "10:11 PM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "July"
+	},
+	{
+		"TimeStamp": "4:34 AM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "September"
+	},
+	{
+		"TimeStamp": "5:54 AM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "November"
+	},
+	{
+		"TimeStamp": "1:12 AM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "3:16 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "1:36 PM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "June"
+	},
+	{
+		"TimeStamp": "8:03 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "12:33 AM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "August"
+	},
+	{
+		"TimeStamp": "3:05 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "July"
+	},
+	{
+		"TimeStamp": "1:50 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "October"
+	},
+	{
+		"TimeStamp": "1:37 PM",
+		"Year": 2023,
+		"Quarter": 4,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "7:33 PM",
+		"Year": 2023,
+		"Quarter": 2,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "3:26 AM",
+		"Year": 2022,
+		"Quarter": 3,
+		"Month": "January"
+	},
+	{
+		"TimeStamp": "8:31 PM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "July"
+	},
+	{
+		"TimeStamp": "10:50 AM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "January"
+	},
+	{
+		"TimeStamp": "8:21 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "July"
+	},
+	{
+		"TimeStamp": "4:38 PM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "January"
+	},
+	{
+		"TimeStamp": "4:31 AM",
+		"Year": 2023,
+		"Quarter": 1,
+		"Month": "April"
+	},
+	{
+		"TimeStamp": "3:00 AM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "December"
+	},
+	{
+		"TimeStamp": "11:16 PM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "May"
+	},
+	{
+		"TimeStamp": "7:30 AM",
+		"Year": 2023,
+		"Quarter": 4,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "9:38 PM",
+		"Year": 2022,
+		"Quarter": 1,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "7:29 PM",
+		"Year": 2023,
+		"Quarter": 3,
+		"Month": "February"
+	},
+	{
+		"TimeStamp": "12:19 AM",
+		"Year": 2022,
+		"Quarter": 2,
+		"Month": "March"
+	},
+	{
+		"TimeStamp": "6:17 AM",
+		"Year": 2022,
+		"Quarter": 4,
+		"Month": "July"
+	}
+]

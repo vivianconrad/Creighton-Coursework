@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La Casa Fiesta Menu</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css?ver=4.4.2'>
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.8/ladda.min.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icon -->
+    <link rel="icon" href="taco.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/large-taco.png">
+
+    <!-- webpage's dimensions change according to the host device.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+
+    <!-- apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="La Casa Fiesta App" />
+    <meta name="apple-mobile.web-app-title" content="La Casa Fiesta App">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- This is for the Microsoft browser. -->
+    <meta name="theme-color" content="white">
+    <meta name="msapplication-TileImage" content="images/large-taco.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <script type="module" src="https://unpkg.com/@fluentui/web-components" crossorigin="anonymous"></script>
+    <!-- <script type="module" src="/src/app-index.ts"></script> -->
+
+</head>
+
+<body>
+
+    <!-- This is the main div that is holding all of the other divs. -->
+    <div class="main">
+
+        <!-- This is the logo for the app. -->
+        <div class="logoDisp">
+            <img class="centerLogo" alt="Casa Logo" src="images/La-Casa-Fiesta-Logo2.png">
+        </div>
+        <!-- This is the code that is used to display the number of items that are in the cart. -->
+
+        <a class="order-icon">
+            <span id="totalItems">0</span>
+            <ul class="order"></ul>
+        </a>
+
+        <div class="navigation">
+            <a class="btn navItem" href="#appe_link">Appetizers</a>
+            <a class="btn navItem" href="#breakfast_link">Breakfast Menu</a>
+            <a class="btn navItem" href="#entree_link">Lunch/Dinner</a>
+        </div>
+
+        <!-- <br> -->
+        <div class="title">
+            <h1>La Casa Menu</h1>
+        </div>
+        <div class="container">
+            <h3 id='appe_link' class="title">Appetizers</h3>`
+            <div class="appetizers column">
+
+            </div>
+            <h3 id='breakfast_link' class="title">Breakkie</h3>`
+            <div class="brekkie column">
+
+            </div>
+            <h3 id='entree_link'>Lunch</h3>
+            <div class="entree column">
+
+            </div>
+        </div>
+    </div>
+    <!-- This is importing the javascript libraries that are needed for the app to run. -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js?ver=1.11.2'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.8/spin.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.8/ladda.min.js'></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
