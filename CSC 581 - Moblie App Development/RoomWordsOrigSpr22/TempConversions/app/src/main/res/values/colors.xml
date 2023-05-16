@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fun_pink">#FF206E</color>
+    <color name="yellow">#f13907</color>
+    <color name="ew_green">#2338a9</color>
+    <color name="aggro_blue">#3131d4</color>
+    <color name="blue">#41EAD4</color>
+    <color name="black">#0C0F0A</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonLabel">#FFFFFFFF</color>
+</resources>

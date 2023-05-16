@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="189dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/add_new_state"
+                android:layout_width="285dp"
+                android:layout_height="57dp"
+                android:layout_margin="@dimen/big_padding"
+                android:baselineAligned="false"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/hint_state"
+                android:inputType="textAutoComplete"
+                android:minHeight="@dimen/main_height"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="109dp"
+                android:layout_height="66dp"
+                app:srcCompat="@android:drawable/ic_dialog_map" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/add_new_ce_temp"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_alignBottom="@+id/textC"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/big_padding"
+                android:layout_toRightOf="@+id/textFer"
+                android:ems="10"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/hint_temp"
+                android:inputType="numberDecimal" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                app:srcCompat="@android:drawable/ic_menu_myplaces" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/big_padding"
+        android:background="@color/design_default_color_on_primary"
+        android:text="@string/button_save"
+        android:textColor="#2338a9" />
+
+</LinearLayout>

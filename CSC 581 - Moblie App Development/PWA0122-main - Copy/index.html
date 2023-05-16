@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>La Casa Fiesta Menu</title>
+
+    <!-- Style sheet / fonts -->
+    <link rel="stylesheet" href="css/menuStyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css?ver=4.4.2">
+    <link rel='stylesheet' href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.8/ladda.min.css">
+    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Montserrat" type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icon -->
+    <link rel="icon" href="taco.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/large-taco.png">
+
+    <!-- webpage's dimensions change according to the host device.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+
+    <!-- apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="La Casa Fiesta App" />
+    <meta name="apple-mobile.web-app-title" content="La Casa Fiesta App">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- This is for the Microsoft browser. -->
+    <meta name="theme-color" content="white">
+    <meta name="msapplication-TileImage" content="images/large-taco.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <script type="module" src="https://unpkg.com/@fluentui/web-components" crossorigin="anonymous"></script>
+    <script type="module" src="/src/app-index.ts"></script>
+    <script src="js/script.js"></script>
+
+
+</head>
+
+
+<body class="fullscreen" onload="regSW();">
+    <main>
+        <!-- allows the logo to resize depending on the window size -->
+        <div class="logoBox">
+            <img class="centerLogo" alt="Casa Logo" src="images/La-Casa-Fiesta-Logo2.png">
+        </div>
+
+        <a class="cart-icon">
+            <span id="totalItems">0</span>
+            <ul class="cart"></ul>
+        </a>
+
+        <h1 class="title">La Casa Menu</h1>
+        <div class="container">
+            <!-- <div class="card">
+                <img class="card--avatar" src="${menuItems[i].img}">
+                <h1 class="card--title">Classic Nachos</h1>
+                <a class="card--link" href="#">States</a>
+            </div>
+            <div class="card">
+                <img class="card--avatar" src="images/chili-cheese-nacho.jpg">
+                <h1 class="card--title">Loaded Nachos</h1>
+                <a class="card--link" href="#">States</a>
+            </div>
+            <div class="card">
+                <img class="card--avatar" src="images/seagull.jpg">
+                <h1 class="card--title">Seagull</h1>
+                <a class="card--link" href="#">States</a>
+            </div> -->
+        </div>
+    </main>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js?ver=1.11.2'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.8/spin.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.8/ladda.min.js'></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>State Birds</title>
+
+    <!-- Style sheet / fonts -->
+    <link rel="stylesheet" href="css/birdstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+
+    <!-- webpage's dimensions change according to the host device.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+
+    <!-- apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="PWA Starter" />
+    <meta name="apple-mobile.web-app-title" content="State Birds">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- This is for the Microsoft browser. -->
+    <meta name="theme-color" content="white">
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <script type="module" src="https://unpkg.com/@fluentui/web-components" crossorigin="anonymous"></script>
+    <script type="module" src="/src/app-index.ts"></script>
+
+</head>
+
+
+<body class="fullscreen" onload="regSW();">
+    <main>
+        <h1 class="title">State Birds</h1>
+        <div class="container">
+            <div class="card">
+                <img class="card--avatar" src="images/Cardinal.jpg">
+                <h1 class="card--title">Cardinal</h1>
+                <a class="card--link" href="#">States</a>
+            </div>
+            <div class="card">
+                <img class="card--avatar" src="images/Chicken.jpg">
+                <h1 class="card--title">Chicken</h1>
+                <a class="card--link" href="#">States</a>
+            </div>
+            <div class="card">
+                <img class="card--avatar" src="images/seagull.jpg">
+                <h1 class="card--title">Seagull</h1>
+                <a class="card--link" href="#">States</a>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+<html>

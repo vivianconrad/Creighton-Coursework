@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Celsius to Fahrenheit</string>
+    <string name="add_state_temp">Add a State and Temperature</string>
+    <string name="hint_state">Enter a State</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">State not saved because it is empty.</string>
+    <string name="hint_temp">Enter a Temperature in Celsius</string>
+</resources>
