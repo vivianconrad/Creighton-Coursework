@@ -1,0 +1,45 @@
+import time
+
+def slow_print(text, delay=0.05):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(delay)
+    print()
+
+def funny_bot_intro():
+    slow_print("Hello there! I'm your friendly neighborhood Funny Bot 🤖")
+    slow_print("I'm here to tell you some jokes and make you laugh!")
+    slow_print("Are you ready for some humor? Let's get started!\n")
+
+def tell_joke():
+    jokes = [
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them."
+    ]
+
+    joke = jokes.pop(0)
+    slow_print("Here's a joke for you:")
+    slow_print(joke)
+    slow_print("Haha, hope that brought a smile to your face!")
+
+def say_goodbye():
+    slow_print("Well, that's all the jokes I have for now.")
+    slow_print("Remember, laughter is the best medicine!")
+    slow_print("Goodbye for now, and stay funny! 🤣")
+
+def main():
+    funny_bot_intro()
+    while True:
+        response = input("Would you like to hear a joke? (yes/no): ")
+        if response.lower() == "yes":
+            tell_joke()
+            print()
+        else:
+            say_goodbye()
+            break
+
+if __name__ == "__main__":
+    main()
