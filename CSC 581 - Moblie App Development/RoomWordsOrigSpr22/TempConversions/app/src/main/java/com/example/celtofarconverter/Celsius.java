@@ -5,21 +5,32 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+/**
+ * Entity class for storing Celsius temperature values in the database.
+ */
 @Entity(tableName = "celsius_table")
-
 public class Celsius {
 
     @PrimaryKey
     @NonNull
-    @ColumnInfo(name="Celsius")
-    private String mCelsius;
+    @ColumnInfo(name = "celsius_value")
+    private String celsiusValue;
 
-    public Celsius(@NonNull String celsius){
-        this.mCelsius = celsius;
+    /**
+     * Constructor to create a Celsius object.
+     *
+     * @param celsiusValue The Celsius temperature value.
+     */
+    public Celsius(@NonNull String celsiusValue) {
+        this.celsiusValue = celsiusValue;
     }
 
-    public String getCelsius(){
-        return this.mCelsius;
+    /**
+     * Get the Celsius temperature value.
+     *
+     * @return The Celsius temperature value.
+     */
+    public String getCelsiusValue() {
+        return celsiusValue;
     }
-
 }

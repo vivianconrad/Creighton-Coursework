@@ -11,16 +11,25 @@ import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 
 /**
- * Instrumented test, which will execute on an Android device.
+ * Instrumented test to verify the app's context.
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
+
+    /**
+     * Test to ensure that the correct package name is obtained from the app context.
+     */
     @Test
-    public void useAppContext() {
-        // Context of the app under test.
+    public void verifyAppPackageName() {
+        // Arrange: Obtain the context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.centtofahrappproof", appContext.getPackageName());
+
+        // Act: Get the package name from the app context.
+        String packageName = appContext.getPackageName();
+
+        // Assert: Verify that the package name matches the expected value.
+        assertEquals("com.example.centtofahrappproof", packageName);
     }
 }

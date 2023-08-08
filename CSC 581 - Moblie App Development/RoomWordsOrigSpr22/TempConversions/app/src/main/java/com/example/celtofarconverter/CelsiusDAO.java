@@ -8,16 +8,31 @@ import androidx.room.Query;
 
 import java.util.List;
 
+/**
+ * Data Access Object (DAO) for Celsius temperature values.
+ */
 @Dao
 public interface CelsiusDAO {
-    // allowing the insertion of the same celsius multiple times by passing a
-    // conflict resolution strategy
-    @Insert(onConflict= OnConflictStrategy.IGNORE)
+
+    /**
+     * Insert a Celsius temperature value into the database.
+     *
+     * @param celsius The Celsius object to insert.
+     */
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insert(Celsius celsius);
 
+    /**
+     * Delete all Celsius temperature values from the database.
+     */
     @Query("DELETE FROM Celsius")
     void deleteAll();
 
-    @Query("SELECT * from Celsius ORDER BY state ASC")
-    LiveData<List<Celsius>> getAlphabetizedWords();
+    /**
+     * Retrieve all Celsius temperature values from the database in alphabetical order.
+     *
+     * @return A LiveData list of Celsius temperature values.
+     */
+    @Query("SELECT * FROM Celsius ORDER BY celsius_value ASC")
+    LiveData<List<Celsius>> getAlphabetizedCelsiusValues();
 }
